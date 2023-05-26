@@ -1,1 +1,32 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: rgb(21, 55, 26);
+}
+
+h1 {
+  color: #fff;
+}
+
+.card {
+  width: 180px;
+  height: 250px;
+  border-radius: 1rem;
+  margin-top: 30px;
+}
+
+.row {
+  height: 100%;
+}
+
+.number {
+  font-size: 4em;
+  font-family: auto;
+  color: black;
+}
+
+.symbol {
+  font-size: 3em;
+  padding: 0;
+  color: black;
+}

@@ -15,11 +15,25 @@
   <body>
     <div class="container-fluid text-center">
       <h1 class="mt-5">Random Card Generator</h1>
-      <div id="randomCard" class="container card"></div>
-      <button type="button" class="btn btn-light mt-5" onclick="generateCard()">
-        Click here!
+      <div id="randomCard" class="container card">
+        <div class="row">
+          <div id="simbolo1" class="col-3 symbol align-self-start">
+            ♠
+          </div>
+          <div id="numero" class="col-6 number align-self-center">
+            3
+          </div>
+          <div id="simbolo2" class="col-3 symbol align-self-end">
+            ♠
+          </div>
+        </div>
+      </div>
+      <button type="button" id="new-card" class="btn btn-light mt-5">
+        Clic para obtener nueva carta!
       </button>
       <div class="fixed-bottom p-4 text-white">
+        <input id="card-height" type="number" placeholder="Height" />
+        <input id="card-width" type="number" placeholder="Width" />
         Made with ❤️ by
         <a href="https://github.com/beanama">Bea</a>
       </div>
